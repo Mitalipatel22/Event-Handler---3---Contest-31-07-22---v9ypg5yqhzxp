@@ -1,12 +1,13 @@
+import React, { useState } from 'react'
 
 const App = () => {
-  const handleInput = (event) =>{
-    console.log('Input in #${event.target.id'}is ${event.target.value}'')
-}
-  
-   
+  const handleInput = (event) => {
+    console.log('Input in #${event.target.id} is ${event.target.value}')
+  }
 
-  // do not change id of input elements
+  
+  
+    // do not change id of input elements
   return (
     <div id="main">
       <label htmlFor='text-input'>Text Input:- </label>
@@ -20,7 +21,7 @@ const App = () => {
       <br/>
     </div>
   )
-  }
+}
 
 
 export default App;
